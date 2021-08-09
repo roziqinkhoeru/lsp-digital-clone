@@ -201,10 +201,15 @@ header,
 }
 
 .card__mengapa {
-    width: 320px;
+    width: 30%;
     padding: 36px 24px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
     border-radius: 2px;
+    transition: all .3s ease;
+}
+
+.card__mengapa:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .16);
 }
 
 .card__mengapa h3 {
@@ -216,7 +221,8 @@ header,
 }
 
 .card__mengapa .m__bt {
-    margin-bottom: 54px;
+    height: 150px;
+    margin-bottom: 12px;
 }
 
 .card__mengapa h3,
@@ -365,9 +371,15 @@ footer .fw-bold {
     /*               GENERAL STYLE               */
     /*********************************************/
     h1 {
+        font-size: 48px !important;
     }
 
     h2 {
+        font-size: 36px !important;
+    }
+
+    h3 {
+        font-size: 36px !important;
     }
 
     .body__section {
@@ -389,6 +401,11 @@ footer .fw-bold {
     /**************************/
     /*    mengapa section     */
     /**************************/
+    /*mengapa body*/
+    .card__mengapa .m__bt {
+        height: 220px;
+        margin-bottom: 12px;
+    }
 
     /************************/
     /*    skema section     */
@@ -476,6 +493,25 @@ footer .fw-bold {
     /**************************/
     /*    mengapa section     */
     /**************************/
+    /*mengapa body*/
+    .mengapa__body {
+        flex-direction: column;
+    }
+
+    .card__mengapa {
+        width: 100%;
+        padding: 36px 24px;
+        margin-bottom: 36px;
+    }
+
+    .card__mengapa .m__bt {
+        height: auto;
+        margin-bottom: 36px;
+    }
+
+    .card__mengapa .fw-bold {
+        margin-bottom: 18px;
+    }
 
     /************************/
     /*    skema section     */
