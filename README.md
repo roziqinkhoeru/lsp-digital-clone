@@ -16,13 +16,23 @@ Folder Structure:
  ┣ 📂assets
  ┃ ┣ 📂css
  ┃ ┃ ┣ 📂css-images
+ ┃ ┃ ┃ ┗ 📜bg-header.jpg
  ┃ ┃ ┣ 📜bootstraps.css
  ┃ ┃ ┣ 📜bootstraps.css.map
+ ┃ ┃ ┣ 📜hover.css.map
+ ┃ ┃ ┣ 📜hover-min.css
+ ┃ ┃ ┣ 📜owl.carousel.min.css
+ ┃ ┃ ┣ 📜owl.theme.default.min.css
  ┃ ┃ ┗ 📜styles.css
  ┃ ┣ 📂images
+ ┃ ┃ ┣ 📜(10)items.png
+ ┃ ┃ ┣ 📜(18)items.jpg
+ ┃ ┃ ┣ 📜(2)items.svg
+ ┃ ┃ ┗ 📜(1)items.ico
  ┃ ┣ 📂js
  ┃ ┃ ┣ 📜bootstraps.bundle.js
  ┃ ┃ ┣ 📜bootstraps.bundle.js.map
+ ┃ ┃ ┣ 📜owl.carousel.min.js
  ┃ ┃ ┗ 📜scripts.js
  ┃ ┗ 📂vendor
  ┃ ┃ ┣ 📂icofont
