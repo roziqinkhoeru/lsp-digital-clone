@@ -34,8 +34,6 @@ Folder Structure:
  ┃ ┣ 📂css
  ┃ ┃ ┣ 📂css-images
  ┃ ┃ ┃ ┗ 📜bg-header.jpg
- ┃ ┃ ┣ 📜bootstraps.css
- ┃ ┃ ┣ 📜bootstraps.css.map
  ┃ ┃ ┣ 📜hover.css.map
  ┃ ┃ ┣ 📜hover-min.css
  ┃ ┃ ┣ 📜owl.carousel.min.css
@@ -47,14 +45,12 @@ Folder Structure:
  ┃ ┃ ┣ 📜(2)items.svg
  ┃ ┃ ┗ 📜(1)items.ico
  ┃ ┣ 📂js
- ┃ ┃ ┣ 📜bootstraps.bundle.js
- ┃ ┃ ┣ 📜bootstraps.bundle.js.map
  ┃ ┃ ┣ 📜owl.carousel.min.js
  ┃ ┃ ┗ 📜scripts.js
  ┃ ┗ 📂vendor
  ┃ ┃ ┣ 📂icofont
  ┃ ┃ ┗ 📂uicons-bold-rounded
- ┣ 📜dashboard.html
+ ┣ 📜index.html
  ┗ 📜README.md
 ```
 
