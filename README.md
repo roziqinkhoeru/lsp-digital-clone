@@ -1,6 +1,6 @@
 <br/>
 <div align="center">  
-  <p><img src="https://raw.githubusercontent.com/roziqinkhoeru/lsp-digital-clone/main/assets/image/logo-lsp.png" width=270/></p>
+  <p><img src="https://raw.githubusercontent.com/roziqinkhoeru/lsp-digital-clone/main/assets/image/logo-lsp.png" width=240/></p>
   <p><strong>Redesign</strong> LSP Teknologi Digital Website</p>
 </div>
 <br/>
