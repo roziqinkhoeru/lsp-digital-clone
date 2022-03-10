@@ -37,7 +37,7 @@
   --small-size: 14px;
 
   /*padding and margin*/
-  --section-tb: 72px 0;
+  --section-tb: 56px 0;
 
   /* transition */
   --trans: all 0.2s ease-in-out;
@@ -207,8 +207,7 @@ h5 {
 /*****************/
 /*    header     */
 /*****************/
-.skema__section,
-.testimoni__section {
+.skema__section {
   height: 900px;
 }
 
@@ -359,6 +358,21 @@ header {
 /****************************/
 .testimoni__section {
   padding: var(--section-tb);
+  text-align: center;
+}
+
+.card__testimoni {
+  background-color: #f3fbff;
+  padding: 2.25rem;
+}
+
+.card__testimoni-name {
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+.card__testimoni-job {
+  margin-bottom: 9px;
 }
 
 /******************************/

@@ -1,6 +1,6 @@
 // owl carousel
 $(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
+  $("#videos-doc.owl-carousel").owlCarousel({
     loop: true,
     margin: 30,
     nav: false,
@@ -14,6 +14,27 @@ $(document).ready(function () {
       },
       1000: {
         items: 2,
+      },
+    },
+  });
+});
+
+// owl carousel
+$(document).ready(function () {
+  $("#testimoni.owl-carousel").owlCarousel({
+    loop: false,
+    margin: 30,
+    nav: true,
+    dots: false,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
       },
     },
   });
