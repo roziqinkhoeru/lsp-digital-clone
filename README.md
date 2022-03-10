@@ -60,7 +60,7 @@ Folder Structure:
 
 ## 🎨 UI Design
 
-https://www.figma.com/file/9YFVOvungQDCdchGjVg7VS/BPPTIK?node-id=0%3A1
+![👉 go to figma](https://www.figma.com/file/9YFVOvungQDCdchGjVg7VS/BPPTIK?node-id=0%3A1)
 
 ## 💌 Feedback
 
