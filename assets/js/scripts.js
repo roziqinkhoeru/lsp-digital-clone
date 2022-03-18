@@ -52,7 +52,7 @@ $(document).ready(function () {
         items: 1,
       },
       600: {
-        items: 3,
+        items: 2,
       },
       1000: {
         items: 4,
@@ -65,19 +65,19 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(".testimoni__body .owl-nav button span").remove();
   $(".testimoni__body .owl-nav .owl-prev").append(
-    '<i aria-label="Previous" class="fas fa-chevron-left"></i>'
+    '<i aria-label="Previous" class="bi bi-arrow-left-circle"></i>'
   );
   $(".testimoni__body .owl-nav .owl-next").append(
-    '<i aria-label="Next" class="fas fa-chevron-right"></i>'
+    '<i aria-label="Next" class="bi bi-arrow-right-circle"></i>'
   );
 });
 
 $(document).ready(function () {
   $(".skema__body .owl-nav button span").remove();
   $(".skema__body .owl-nav .owl-prev").append(
-    '<i aria-label="Previous" class="fas fa-chevron-left"></i>'
+    '<i aria-label="Previous" class="bi bi-arrow-left-circle"></i>'
   );
   $(".skema__body .owl-nav .owl-next").append(
-    '<i aria-label="Next" class="fas fa-chevron-right"></i>'
+    '<i aria-label="Next" class="bi bi-arrow-right-circle"></i>'
   );
 });
