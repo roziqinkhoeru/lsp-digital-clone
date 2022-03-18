@@ -5,7 +5,7 @@
     1. Google Font
     2. Variable
     3. General styles
-    4. Dashboard Page
+    4. Index Page
     5. Responsive / Media queries
 */
 
@@ -57,6 +57,12 @@
   color: var(--black);
 }
 
+.clr__dark {
+  transition: var(--trans) !important;
+
+  color: rgba(3, 13, 38, 0.7) !important;
+}
+
 a {
   text-decoration: unset;
 
@@ -68,31 +74,31 @@ ul {
 }
 
 h1 {
-  font-family: var(--head-font) !important;
-  font-size: 60px !important;
+  font-family: var(--head-font);
+  font-size: 60px;
   font-weight: 800;
 }
 
 h2 {
-  font-family: var(--head-font) !important;
-  font-size: 48px !important;
-  font-weight: 700 !important;
+  font-family: var(--head-font);
+  font-size: 48px;
+  font-weight: 700;
 }
 
 h3 {
-  font-size: 48px !important;
-  font-weight: 600 !important;
+  font-size: 48px;
+  font-weight: 600;
 }
 
 h4 {
-  font-size: 36px !important;
-  font-weight: 700 !important;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 h5 {
-  font-size: 20px !important;
-  font-weight: 600 !important;
-  line-height: 20px !important;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
 }
 
 .a__none a {
@@ -127,16 +133,113 @@ h5 {
   color: var(--dark-color);
 }
 
+/* navbar */
+.navbar {
+  z-index: 999;
+  top: 0;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand img {
+  height: 4rem;
+}
+
+.nav-link.nav__link {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+
+.navbar .nav-item .nav__link.active {
+  color: var(--dark-color) !important;
+}
+
+.navbar .nav-item .nav__link.clr__dark:hover {
+  color: var(--dark-color) !important;
+}
+
+.dropdown-menu.dropdown__menu .dropdown-item.dropdown__item {
+  font-size: 0.875rem;
+  font-weight: 500 !important;
+
+  padding: 0.75rem 1.5rem;
+}
+
+.dropdown-menu.dropdown__menu .dropdown-item.dropdown__item:hover {
+  color: var(--white);
+  background-color: var(--middle-color) !important;
+}
+
+.dropdown-menu.dropdown__menu
+  .dropdown-item.dropdown__item.dropdown__item-title:hover {
+  background-color: transparent !important;
+}
+
+.dropdown__menu-container {
+  display: flex;
+}
+
+.dropdown-item.dropdown__item.fw-bold span {
+  font-weight: 700 !important;
+}
+
 /**********************************************/
-/*               DASHBOARD PAGE               */
+/*               Index PAGE               */
 /**********************************************/
+header .container {
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+
+  align-items: center;
+}
+
+.header__section {
+  max-width: 60%;
+}
+
+.header__section h1 {
+  margin-bottom: 1rem;
+
+  color: var(--white);
+}
+
+.header__section p {
+  font-size: 1.125rem;
+
+  margin-bottom: 2.25rem;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.header__section-btn {
+  display: flex;
+}
+
+.header__section-btn a {
+  font-size: 1.125rem;
+  font-weight: 600;
+
+  display: block;
+
+  padding: 1.25rem 1.875rem;
+
+  transition: var(--trans);
+
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(42, 169, 224, 0.7);
+}
+
+.header__section-btn a:hover {
+  color: var(--white);
+  background-color: var(--middle-color);
+}
 
 /************************/
 /*    alter section     */
 /************************/
 .alter__section {
-  position: absolute;
-
   width: 100%;
 
   background-color: var(--dark-color);
@@ -213,7 +316,8 @@ header {
   height: 100vh;
   max-height: 900px;
 
-  background-image: url(css-image/bg-header.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.5) 100%),
+    url(css-image/bg-header.jpg);
 }
 
 /**************************/
@@ -785,15 +889,15 @@ footer .fw-bold {
   /*               GENERAL STYLE               */
   /*********************************************/
   h1 {
-    font-size: 48px !important;
+    font-size: 48px;
   }
 
   h2 {
-    font-size: 36px !important;
+    font-size: 36px;
   }
 
   h3 {
-    font-size: 36px !important;
+    font-size: 36px;
   }
 
   .body__section {
@@ -801,7 +905,7 @@ footer .fw-bold {
   }
 
   /**********************************************/
-  /*               DASHBOARD PAGE               */
+  /*               Index PAGE               */
   /**********************************************/
 
   /**********************/
@@ -885,14 +989,39 @@ footer .fw-bold {
   /*********************************************/
   /*               GENERAL STYLE               */
   /*********************************************/
+  h1 {
+    font-size: 2.5rem;
+  }
+
   h4 {
-    font-size: 30px !important;
-    line-height: 30px !important;
+    font-size: 30px;
+    line-height: 30px;
   }
 
   /**********************************************/
-  /*               DASHBOARD PAGE               */
+  /*               Index PAGE               */
   /**********************************************/
+  header {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5) 100%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(css-image/bg-header.jpg);
+  }
+
+  .header__section {
+    max-width: 100%;
+  }
+
+  .header__section p {
+    font-size: 1rem;
+  }
+
+  .header__section-btn a {
+    font-size: 1rem;
+
+    padding: 1rem 1.5rem;
+  }
 
   /************************/
   /*    alter section     */
