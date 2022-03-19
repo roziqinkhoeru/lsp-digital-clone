@@ -40,9 +40,9 @@ Folder Structure:
  ┃ ┃ ┣ 📜owl.theme.default.min.css
  ┃ ┃ ┗ 📜styles.css
  ┃ ┣ 📂images
- ┃ ┃ ┣ 📜(10)items.png
+ ┃ ┃ ┣ 📜(20)items.png
  ┃ ┃ ┣ 📜(18)items.jpg
- ┃ ┃ ┣ 📜(2)items.svg
+ ┃ ┃ ┣ 📜(3)items.svg
  ┃ ┃ ┗ 📜(1)items.ico
  ┃ ┣ 📂js
  ┃ ┃ ┣ 📜owl.carousel.min.js
@@ -60,7 +60,7 @@ Folder Structure:
 
 ## 🎨 UI Design
 
-![👉 go to figma](https://www.figma.com/file/9YFVOvungQDCdchGjVg7VS/BPPTIK?node-id=0%3A1)
+👉![go to figma](https://www.figma.com/file/9YFVOvungQDCdchGjVg7VS/BPPTIK?node-id=0%3A1)
 
 ## 💌 Feedback
 
