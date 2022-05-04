@@ -59,10 +59,6 @@ Folder Structure:
 
 - Responsives all devices
 
-## 🎨 UI Design
-
-👉![go to figma](https://www.figma.com/file/9YFVOvungQDCdchGjVg7VS/BPPTIK?node-id=0%3A1)
-
 ## 💌 Feedback
 
 If you have any feedback, please reach out to us at **roziqinkhoeru8@mail.com**
