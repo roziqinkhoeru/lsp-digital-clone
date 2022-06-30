@@ -274,10 +274,24 @@ header .container {
 
 .alter__left p {
   margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .alter__left a {
   margin-right: 24px;
+}
+
+.alter__left a svg {
+  font-size: 1rem;
+}
+
+.alter__left a path {
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.2s ease-in-out;
+}
+
+.alter__left a path:hover {
+  color: var(--white);
 }
 
 /*alter right*/
@@ -845,7 +859,12 @@ footer .fw-bold {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.bottom__footer i {
+.bottom__footer a {
+  margin-left: 1rem;
+}
+
+.bottom__footer i,
+.bottom__footer a path {
   font-size: 18px;
 
   margin-left: 20px;
@@ -856,7 +875,8 @@ footer .fw-bold {
 }
 
 .bottom__footer i:hover,
-.bottom__footer a:hover {
+.bottom__footer a:hover,
+.bottom__footer a path:hover {
   color: rgba(255, 255, 255, 1);
 }
 
